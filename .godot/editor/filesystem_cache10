@@ -1,17 +1,17 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1758230339
-export_presets.cfg::TextFile::-1::1758230339::0::1::::<><><>0<>0<><>::
+::res://::1758265019
+export_presets.cfg::TextFile::-1::1758265019::0::1::::<><><>0<>0<><>::
 hud.gd::GDScript::1005647180761046008::1757973081::0::1::::<>CanvasLayer<><>0<>0<><>::
 hud.tscn::PackedScene::4947129736321201862::1757973081::0::1::::<><><>0<>0<><>::uid://ole4kvtbp4r1::::res://hud.gd<>uid://cit6gwe5px1q8::::res://fonts/Xolonium-Regular.ttf
 icon.webp::CompressedTexture2D::3626017087650301524::1757973081::1758230285::1::::<><><>0<>0<>c6c2d2a409d3db208320ab54c2d08e4f<>res://.godot/imported/icon.webp-e94f9a68b0f625a567a797079e4d325f.ctex::
-index.apple-touch-icon.png::CompressedTexture2D::4457295270514401840::1758230338::1758230376::1::::<><><>0<>0<>88d84eddd407bf2c136bfe428f231c6e<>res://.godot/imported/index.apple-touch-icon.png-8085a11cc297d91deb55511843765958.ctex::
-index.icon.png::CompressedTexture2D::5207740911601067384::1758230338::1758230376::1::::<><><>0<>0<>ddd99328d1a2713b4718a001490e9d7f<>res://.godot/imported/index.icon.png-5665fad188e88d1e882500a4376bfe02.ctex::
-index.png::CompressedTexture2D::1619396541390819782::1758230338::1758230376::1::::<><><>0<>0<>05ad644e5763dde984edbe35f5a34d08<>res://.godot/imported/index.png-5122033cac747157decad52589e2295c.ctex::
-main.gd::GDScript::2999757432023437591::1757973081::0::1::::<>Node<><>0<>0<><>::
-main.tscn::PackedScene::6469066510429512572::1757973081::0::1::::<><><>0<>0<><>::uid://bi0dtjbbi0wxj::::res://main.gd<>uid://rkdnhqgf2hpj::::res://mob.tscn<>uid://4vwrqjegqwpj::::res://player.tscn<>uid://ccqoreueuxdb7::::res://hud.tscn<>uid://q2pf4fr8d0ks::::res://art/House In a Forest Loop.ogg<>uid://dw26fpygeag8o::::res://art/gameover.wav
+index.apple-touch-icon.png::CompressedTexture2D::4457295270514401840::1758265019::1758230376::1::::<><><>0<>0<>88d84eddd407bf2c136bfe428f231c6e<>res://.godot/imported/index.apple-touch-icon.png-8085a11cc297d91deb55511843765958.ctex::
+index.icon.png::CompressedTexture2D::5207740911601067384::1758265019::1758265083::1::::<><><>0<>0<>ddd99328d1a2713b4718a001490e9d7f<>res://.godot/imported/index.icon.png-5665fad188e88d1e882500a4376bfe02.ctex::
+index.png::CompressedTexture2D::1619396541390819782::1758265019::1758230376::1::::<><><>0<>0<>05ad644e5763dde984edbe35f5a34d08<>res://.godot/imported/index.png-5122033cac747157decad52589e2295c.ctex::
+main.gd::GDScript::2999757432023437591::1758232383::0::1::::<>Node<><>0<>0<><>::
+main.tscn::PackedScene::6469066510429512572::1758265008::0::1::::<><><>0<>0<><>::uid://bi0dtjbbi0wxj::::res://main.gd<>uid://rkdnhqgf2hpj::::res://mob.tscn<>uid://4vwrqjegqwpj::::res://player.tscn<>uid://ccqoreueuxdb7::::res://hud.tscn<>uid://q2pf4fr8d0ks::::res://art/House In a Forest Loop.ogg<>uid://dw26fpygeag8o::::res://art/gameover.wav
 mob.gd::GDScript::7132953241582797509::1757973081::0::1::::<>RigidBody2D<><>0<>0<><>::
-mob.tscn::PackedScene::1214059878346897035::1757973081::0::1::::<><><>0<>0<><>::uid://c8vixyuoi1xgn::::res://mob.gd<>uid://yqglrrsx7j1f::::res://art/enemyFlyingAlt_1.png<>uid://bpot8awhdn6ph::::res://art/enemyFlyingAlt_2.png<>uid://bu4221t7qpa7d::::res://art/enemyWalking_1.png<>uid://booij5t7h4efb::::res://art/enemyWalking_2.png<>uid://5lvm88ij4jqn::::res://art/enemySwimming_1.png<>uid://bng45cvsgufqc::::res://art/enemySwimming_2.png
-player.gd::GDScript::4921010131592265353::1757973081::0::1::::<>Area2D<><>0<>0<><>::
+mob.tscn::PackedScene::1214059878346897035::1758231373::0::1::::<><><>0<>0<><>::uid://c8vixyuoi1xgn::::res://mob.gd<>uid://yqglrrsx7j1f::::res://art/enemyFlyingAlt_1.png<>uid://bpot8awhdn6ph::::res://art/enemyFlyingAlt_2.png<>uid://bu4221t7qpa7d::::res://art/enemyWalking_1.png<>uid://booij5t7h4efb::::res://art/enemyWalking_2.png<>uid://5lvm88ij4jqn::::res://art/enemySwimming_1.png<>uid://bng45cvsgufqc::::res://art/enemySwimming_2.png
+player.gd::GDScript::4921010131592265353::1758265008::0::1::::<>Area2D<><>0<>0<><>::
 player.tscn::PackedScene::2080195385142696447::1757973081::0::1::::<><><>0<>0<><>::uid://ccd1k2qxslohl::::res://player.gd<>uid://ftkxr8r4qghp::::res://art/playerGrey_walk1.png<>uid://couyhcegeihme::::res://art/playerGrey_walk2.png<>uid://b4yyoafu8bi0q::::res://art/playerGrey_up1.png<>uid://bko65a0nd66st::::res://art/playerGrey_up2.png
 README.md::TextFile::-1::1757973081::0::1::::<><><>0<>0<><>::
 ::res://art/::1758230285
