@@ -75,3 +75,4 @@ start_game={
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.460023, 0.168933, 0.398265, 1)

@@ -5,6 +5,12 @@ signal hit
 @export var speed = 400 # How fast the player will move (pixels/sec).
 var screen_size # Size of the game window.
 
+@export var max_lives: int = 3
+@export var invincible_time: float = 1.0
+
+var lives: int
+var _can_take_damage := true
+
 func _ready():
 	screen_size = get_viewport_rect().size
 	hide()
@@ -43,12 +49,26 @@ func _process(delta):
 func start(pos):
 	position = pos
 	rotation = 0
+	lives = max_lives
+	_can_take_damage = true
 	show()
 	$CollisionShape2D.disabled = false
 
 
 func _on_body_entered(_body):
-	hide() # Player disappears after being hit.
-	hit.emit()
-	# Must be deferred as we can't change physics properties on a physics callback.
-	$CollisionShape2D.set_deferred(&"disabled", true)
+	if not _can_take_damage:
+		return
+
+	lives -= 1
+
+	if lives <= 0:
+		hide() # Player disappears after final hit
+		hit.emit()
+		$CollisionShape2D.set_deferred(&"disabled", true)
+	else:
+		# Temporary invincibility after being hit
+		_can_take_damage = false
+		modulate.a = 0.5
+		await get_tree().create_timer(invincible_time).timeout
+		modulate.a = 1.0
+		_can_take_damage = true
